@@ -26,24 +26,55 @@ h1 {
 }
 
 .btn-dark {
-  background-color: #F05F44;
+  background-color: #3160d9;
   border-color: white;
 }
 
 .btn-dark:hover {
-  background-color: darksalmon;
+  background-color: rgb(16, 20, 34);
   border-color: dimgrey;
-  border-width: 4px;
+  border-width: 1px;
 }
 
 hr {
   margin: 20px auto;
-  color: #F05F44;
-  border: 3px solid #F05F44;
+  color: #3160d9;
   width: 65px;
-  opacity: 1;  
+  opacity: 1;
+  border-width: 5px;
+  border-style: double;
 }
 
 .buffer {
-  height: 7rem;
+  height: 12rem;
+}
+
+.container-fluid {
+display: flex;
+justify-items: center;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.accordion-box {
+  display: flex;
+  justify-content: center;
+}
+
+.accordion {
+  max-width: 75%;
+}
+
+#prefooter {
+  width: 80%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3160d9;
+  height: 5em;
 }
